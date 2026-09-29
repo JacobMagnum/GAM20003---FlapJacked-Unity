@@ -6,6 +6,7 @@ public class SnapZone : MonoBehaviour
     public string zoneId = "Burner";
     [SerializeField] private Transform snapTarget;
     [SerializeField] private bool parentPlacedItem = true;
+    [SerializeField] private StoveKnob linkedKnob;
 
     public SnapSurfaceType SurfaceType
     {
@@ -25,6 +26,11 @@ public class SnapZone : MonoBehaviour
     public bool ParentPlacedItem
     {
         get { return parentPlacedItem; }
+    }
+
+    public StoveKnob LinkedKnob
+    {
+        get { return linkedKnob; }
     }
 
     public SnappableItem Occupant { get; private set; }

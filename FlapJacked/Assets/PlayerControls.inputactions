@@ -95,6 +95,16 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "RotateHeld",
+                    "type": "Button",
+                    "id": "949c56f4-cf57-4365-86a3-e277773a98d3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -282,6 +292,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Snap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "373b1f44-9fc3-4c51-9945-183f1e6e2427",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateHeld",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
